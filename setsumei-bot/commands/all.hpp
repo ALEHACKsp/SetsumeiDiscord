@@ -23,5 +23,6 @@
 #include "helpcommand.hpp"
 #include "setsumeicommand.hpp"
 #include "waifucommand.hpp"
+#include "fanartcommand.hpp"
 
 #endif // ALL_COMMANDS_HPP
