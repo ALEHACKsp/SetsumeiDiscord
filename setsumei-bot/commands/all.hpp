@@ -24,5 +24,6 @@
 #include "setsumeicommand.hpp"
 #include "waifucommand.hpp"
 #include "fanartcommand.hpp"
+#include "hellocommand.hpp"
 
 #endif // ALL_COMMANDS_HPP

@@ -5,6 +5,7 @@ HEADERS += \
     $$PWD/setsumeicommand.hpp \
     $$PWD/waifucommand.hpp \
     $$PWD/fanartcommand.hpp
+    $$PWD/hellocommand.hpp
 
 SOURCES += \
     $$PWD/urbancommand.cpp \
@@ -12,3 +13,4 @@ SOURCES += \
     $$PWD/setsumeicommand.cpp \
     $$PWD/waifucommand.cpp \
     $$PWD/fanartcommand.cpp
+    $$PWD/hellocommand.cpp

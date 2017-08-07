@@ -67,5 +67,6 @@ void Interpreter::registerCommands()
     REGISTER_COMMAND(SetsumeiCommand, _discord);
     REGISTER_COMMAND(WaifuCommand, _discord);
     REGISTER_COMMAND(FanartCommand, _discord);
+    REGISTER_COMMAND(HelloCommand, _discord);
 	qDebug()<<"All commands registered.";
 }
