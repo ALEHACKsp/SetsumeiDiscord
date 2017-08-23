@@ -30,12 +30,16 @@ void WaifuCommand::dispatch(QDiscordMessage message, QStringList args)
         WaifuNames.push_back(name);
     }
 
-    //initialize the random seed
-    srand (time(0));
-    // Generate random number with the value of WaifuNames
-    int randomIndex = rand() % WaifuNames.size();
+
+    // Initialize the random seed
+    // The source for the seeding value will be the system clock
+    auto seed = std::chrono::system_clock::now().time_since_epoch().count();
+    // generator
+    std::mt19937 generator {seed};
+    // number distribution
+    std::uniform_int_distribution<int> choose(0, WaifuNames.size() - 1);
     // QString s now have the random selected waifu
-    QString s = QString::fromStdString(WaifuNames[randomIndex]);
+    QString s = QString::fromStdString(WaifuNames[choose(generator)]);
 
     Q_UNUSED(args);
     //  Send the message to Discord.

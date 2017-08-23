@@ -2,7 +2,7 @@
 #define SETSUMEI_HPP
 
 #include <QObject>
-#include <QDiscord>
+#include <qdiscord.hpp>
 #include <QFile>
 #include <QCoreApplication>
 #include <QDebug>

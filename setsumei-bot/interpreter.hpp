@@ -2,7 +2,7 @@
 #define INTERPRETER_HPP
 
 #include <QObject>
-#include <QDiscord>
+#include <qdiscord.hpp>
 #include <QDebug>
 #include "commandmanager.hpp"
 #include "config.hpp"

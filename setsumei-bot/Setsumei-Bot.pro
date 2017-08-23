@@ -25,8 +25,8 @@ HEADERS += \
     config.hpp \
     setsumei.hpp
 
-LIBS += "/usr/lib/libQDiscord.a"
+INCLUDEPATH +="F:\Dev\Includes\qdiscord"
 
-INCLUDEPATH += "/usr/include"
+LIBS += "F:\Dev\Libs\qdiscord\libQDiscord.a"
 
 include(commands/commands.pri)

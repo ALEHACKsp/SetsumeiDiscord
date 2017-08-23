@@ -1,7 +1,7 @@
 #ifndef COMMAND_HPP
 #define COMMAND_HPP
 
-#include <QDiscord>
+#include <qdiscord.hpp>
 
 class Command
 {

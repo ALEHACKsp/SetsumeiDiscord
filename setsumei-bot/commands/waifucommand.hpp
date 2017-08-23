@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <fstream>
+#include <random>
+#include <vector>
+#include <chrono>
 #include "command.hpp"
 
 class WaifuCommand : public Command
